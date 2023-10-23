@@ -13,7 +13,7 @@ After getting the list of stocks in S&P500, 2 year market value (Open, Close, Hi
 
 ## Data Wrangling
 
-For each stock we receive multiple market values such as Open (market open price), Close (market close price), High (Daily highest stock value), Low (daily lowest stock value) and Volume (number of stocks trader per day). The average of daily open and close price is used as the daily price for each stock. To avoid any short term volatility in stock prices, rolling mean (10 days) is taken for each stock.
+For each stock we receive multiple market values such as Open (market open price), Close (market close price), High (Daily highest stock value), Low (daily lowest stock value) and Volume (number of stocks traded per day). The average of daily open and close price is used as the daily price for each stock. To avoid any short term volatility in stock prices, rolling mean (15 days) is taken for each stock.
 
 The percentage change between the price of the stock from initial price(Oct 18, 2021) to end of 2 year price were calculated for all stocks in S&P500. The stocks were then assigned to 5 different labels based on their 2 year performance (% change) using quantiles. 
 
