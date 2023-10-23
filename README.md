@@ -17,7 +17,7 @@ For each stock we receive multiple market values such as Open (market open price
 
 The percentage change between the price of the stock from initial price(Oct 18, 2021) to end of 2 year price were calculated for all stocks in S&P500. The stocks were then assigned to 5 different labels based on their 2 year performance (% change) using quantiles. 
 
-img_source = Distribution
+![alt text](https://github.com/swami84/SP500/blob/master/results/Performance%20Bins.jpg)
 
 |     Performance Label    	|                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2y % Change Bins    ||
 |:------------------------:	|:-----------------------:	|:-----------:	|
