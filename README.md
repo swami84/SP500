@@ -34,19 +34,23 @@ The percentage change between the price of the stock from initial price(Oct 18, 
 Among all sectors Energy sector stocks show the highest gains
 and Comm Service sector stocks show the lowest gain. S&P index seems to follow higher weightage sectors – IT, healthcare and Financials.
 
-img_source = TS_Sector
+![alt text](https://github.com/swami84/SP500/blob/master/results/Sector_TS.jpg)
 
-### 2-Year Performance Distribution
+
+## Stock Clustering and Classification
 
 Time series clustering was done on the 2 year market data (freq = daily). Each stock’s timeseries was normalized between 0 and 1. 5 clusters were used to match with binned labels earlier identified
 
 
-img_source = ts_clusters
+![alt text](https://github.com/swami84/SP500/blob/master/results/TS_Clusters.png)
 
 
 Gradient Boosted Tree (GBT) model was also developed using the clustering labels as one of the feature (Clustering  + GBT). Overall accuracy of the combined Clustering  + GBT = 74%
 
-img_source = classification_heatmap
+
+![alt text](https://github.com/swami84/SP500/blob/master/results/Classification_Heatmap.jpg)
+
+
 
 
 
